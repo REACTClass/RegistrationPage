@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to right, #a57dc8, #6b3c94, #411765, #2c0b49);
+
+}
+.container {
+    background-color: white;
+    height: 625px;
+    width: 450px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2.0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    
+    
+}
+    
+button:hover {
+    background-color:#6b3c94;
+}
+button:active {
+    background-color: #6b3c94;
+    transform: translateY(4px);
+}
+input {
+    border-color: #a57dc8;
+    border-radius: 5px; 
+    margin-left: 132px;
+      
+}
+label {
+    text-align: center;
+    margin-left: 132px;
+}
+h1 {
+    text-shadow: 2px 2px #411765;
+    text-align: center;
+}
+button {
+    border-radius: 5px;
+    font-weight: bold;
+    width: 25%;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 132px;
+}
+.check {
+    font-size: small;
+    font-weight: normal;
+    margin-right: 100px;
+    
+}
+.form-row > input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+}
+.form-row > label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+
+
+}
